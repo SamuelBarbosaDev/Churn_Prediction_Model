@@ -65,12 +65,12 @@ Você pode baixá-lo em: <https://www.anaconda.com/download/>
 ### Ambiente virtual e Dependências:
 Criando ambiente virtual:
 ```
-conda create -n .venv python=3.8
+conda create -n .churn python=3.10.6
 ```
 
 Entrando no ambiente virtual:
 ```
-conda activate .venv
+conda activate .churn
 ```
 
 Instale as dependências:
