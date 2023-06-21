@@ -20,7 +20,7 @@ class DataPreparetion(DataUnderstanding):
     def convertendo_colunas(self, dataframe: pd.DataFrame, colunas, tipo: str) -> pd.DataFrame:
         return dataframe[colunas].astype(tipo)
 
-    def dummy(self, dataframe: pd.DataFrame, colunas: list) -> (pd.DataFrame, list):
+    def dummy(self, dataframe: pd.DataFrame, colunas: list) -> tuple:
         dataframe = pd.get_dummies(dataframe[colunas])
         colunas = dataframe.columns
         return dataframe, colunas
