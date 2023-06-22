@@ -1,7 +1,7 @@
-# Churn_Prediction_Model:
+# Churn Prediction Model:
 ### Índice
 
-- [Churn\_Prediction\_Model:](#churn_prediction_model)
+- [Churn Prediction Model:](#churn-prediction-model)
     - [Índice](#índice)
     - [Contextualização:](#contextualização)
     - [Metodologia Aplicada:](#metodologia-aplicada)
